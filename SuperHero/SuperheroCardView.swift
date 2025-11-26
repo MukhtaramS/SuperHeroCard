@@ -6,11 +6,7 @@ struct SuperheroCardView: View {
     @State private var isVisible = false
     
     var body: some View {
-        /**
-         Select the components here or directly from the canvas
-         and edit the properties from the inspector panel on the right
-         */
-        
+       
         VStack {
             Text("Shodibek")
                 .font(.largeTitle)
